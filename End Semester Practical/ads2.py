@@ -6,13 +6,9 @@ col = 'total_bill'
 x = df[col]
 
 value_range = x.max() - x.min()
-
 iqr = x.quantile(0.75) - x.quantile(0.25)
-
 variance = x.var()
-
 std_dev = x.std()
-
 coef_var = std_dev / x.mean()
 
 print(f"Range:                     {value_range:.2f}")

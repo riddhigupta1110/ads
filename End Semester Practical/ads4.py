@@ -12,7 +12,6 @@ kurt = x.kurtosis()
 print(f"Skewness: {skewness:.4f}")
 print(f"Kurtosis: {kurt:.4f}")
 
-plt.figure()
 sns.histplot(x, kde=True)
 plt.xlabel(col)
 plt.ylabel('Frequency')

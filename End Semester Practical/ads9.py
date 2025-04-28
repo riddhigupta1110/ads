@@ -28,7 +28,7 @@ plt.show()
 
 # 3. Qualitative Data - Pie Chart for 'sex' (categorical data)
 sex_counts = df['sex'].value_counts()
-plt.pie(sex_counts, labels=sex_counts.index, autopct='%1.1f%%', startangle=90, colors=['skyblue', 'lightcoral'])
+plt.pie(sex_counts, labels=sex_counts.index, autopct='%1.1f%%')
 plt.title('Pie Chart: Distribution of Sex')
 plt.show()
 

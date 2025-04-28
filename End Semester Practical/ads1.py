@@ -4,9 +4,7 @@ df = sns.load_dataset('tips')
 col = 'total_bill'
 
 mean_value = df[col].mean()
-
 median_value = df[col].median()
-
 mode_value = df[col].mode()[0]
 
 q1 = df[col].quantile(0.25)
