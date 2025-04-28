@@ -1,6 +1,5 @@
 import seaborn as sns
 
-# Load an dataset 
 df = sns.load_dataset('tips')
 
 # 1. Show first 5 rows of the dataset

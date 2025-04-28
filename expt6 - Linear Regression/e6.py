@@ -17,7 +17,6 @@ X = pd.DataFrame(california.data, columns=california.feature_names)
 y = pd.Series(california.target, name='MedHouseVal')
 
 # Correlation Heatmap
-plt.figure(figsize=(10, 8))
 sns.heatmap(X.corr(), annot=True)
 plt.title("Correlation Heatmap")
 plt.show()
